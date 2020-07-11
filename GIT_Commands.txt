@@ -1,0 +1,86 @@
+Microsoft Windows [Version 10.0.18363.900]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Ankush sharma>cd GIT
+The system cannot find the path specified.
+
+C:\Users\Ankush sharma>cd GIT/
+The system cannot find the path specified.
+
+C:\Users\Ankush sharma>cd GIT\
+The system cannot find the path specified.
+
+C:\Users\Ankush sharma>cd desktop
+
+C:\Users\Ankush sharma\Desktop>cd GIT
+
+C:\Users\Ankush sharma\Desktop\GIT>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 36A3-5FA6
+
+ Directory of C:\Users\Ankush sharma\Desktop\GIT
+
+10-07-2020  23:25    <DIR>          .
+10-07-2020  23:25    <DIR>          ..
+10-07-2020  23:26                13 ankush.py.txt
+               1 File(s)             13 bytes
+               2 Dir(s)  82,083,786,752 bytes free
+
+C:\Users\Ankush sharma\Desktop\GIT>git init
+Initialized empty Git repository in C:/Users/Ankush sharma/Desktop/GIT/.git/
+
+C:\Users\Ankush sharma\Desktop\GIT>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ankush.py.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Ankush sharma\Desktop\GIT>git add ankush.py
+fatal: pathspec 'ankush.py' did not match any files
+
+C:\Users\Ankush sharma\Desktop\GIT>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ankush.py.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Ankush sharma\Desktop\GIT>git add ankush.py.txt
+
+C:\Users\Ankush sharma\Desktop\GIT>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ankush.py.txt
+
+
+C:\Users\Ankush sharma\Desktop\GIT>git commit -m"ankush here"
+[master (root-commit) 428b8ce] ankush here
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ankush.py.txt
+
+C:\Users\Ankush sharma\Desktop\GIT>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Ankush sharma\Desktop\GIT> git log
+commit 428b8ce15227a1d35284c5f25b6a12d9e299f7fd (HEAD -> master)
+Author: Ankush1456 <ankush1241998@gmail.com>
+Date:   Sat Jul 11 00:07:08 2020 +0530
+
+    ankush here
+
+C:\Users\Ankush sharma\Desktop\GIT>
+
