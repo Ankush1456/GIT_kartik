@@ -84,3 +84,50 @@ Date:   Sat Jul 11 00:07:08 2020 +0530
 
 C:\Users\Ankush sharma\Desktop\GIT>
 
+
+
+
+
+
+C:\Users\Ankush sharma\Desktop\GIT>git branch dev
+
+C:\Users\Ankush sharma\Desktop\GIT>git checkout dev
+Switched to branch 'dev'
+
+C:\Users\Ankush sharma\Desktop\GIT>git status
+On branch dev
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ankush.py.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Ankush sharma\Desktop\GIT>git commit -am"changes happen"
+[dev 0c9c72e] changes happen
+ 1 file changed, 2 insertions(+)
+
+C:\Users\Ankush sharma\Desktop\GIT>git status
+On branch dev
+nothing to commit, working tree clean
+
+C:\Users\Ankush sharma\Desktop\GIT>git checkout master
+Switched to branch 'master'
+
+C:\Users\Ankush sharma\Desktop\GIT>git checkout dev
+Switched to branch 'dev'
+
+C:\Users\Ankush sharma\Desktop\GIT>git checkout master
+Switched to branch 'master'
+
+C:\Users\Ankush sharma\Desktop\GIT>git merge dev
+Updating 2f3f7fe..0c9c72e
+Fast-forward
+ ankush.py.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+C:\Users\Ankush sharma\Desktop\GIT>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Ankush sharma\Desktop\GIT>hello billo how are you
